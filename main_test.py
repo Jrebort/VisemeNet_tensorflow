@@ -1,10 +1,8 @@
-import numpy as np
-from src.train_visemenet import test
 from src.create_dataset_csv import create_dataset_csv
 from src.utl.load_param import *
 from src.eval_viseme import eval_viseme
 
-test_audio_name = 'visemenet_intro.wav'
+test_audio_name = './data/test_audio/humanmotion.wav'
 
 
 # convert audio wav to network input format
